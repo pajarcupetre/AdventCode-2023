@@ -49,8 +49,7 @@ def sum_calibration_with_string_digits(lines):
 
 if __name__ == '__main__':
 
-    #filename = sys.argv[1]
-    filename = '/Users/alexandrupajarcu/PythonProjects/AdventOfCode2023/inputs/day1.txt'
+    filename = sys.argv[1]
     file = open(filename, 'r')
     lines = []
     for line in file:
